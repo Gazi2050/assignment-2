@@ -3,6 +3,7 @@
 
     font-family: 'Work Sans';
     margin: 0%;
+    /* padding: 0%; */
 
 }
 
@@ -10,7 +11,7 @@
     color: #FF42A5;
 }
 
-/* nav bar style */
+/* nav-bar-start */
 nav {
     display: flex;
     justify-content: space-around;
@@ -44,9 +45,76 @@ nav {
     text-align: center;
 }
 
+/* nav-bar-end */
 
+/* header-start */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    padding: 10%;
+
+}
+
+.text-1 {
+    font-weight: 500;
+    color: #0B0223;
+    margin-bottom: 2%;
+
+}
+
+
+.text-2 {
+    font-size: 45px;
+    background: linear-gradient(180deg, rgba(249, 72, 178), rgba(82, 35, 194, 0.88));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 2%;
+
+}
+
+
+.benefits,
+.benefits li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.header-btn1 {
+    background-color: #FF42A5;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-weight: 500;
+    margin-right: 2%;
+}
+
+.header-btn2 {
+    background-color: #4EC5F7;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-weight: 500;
+
+}
+
+.header-banner {
+    width: 60%;
+}
+
+/* header-end */
+
+/* media-query-start */
 /* mobile-screen */
 @media screen and (max-width:426px) {
+
+    /* navbar-start  */
     nav {
         display: block;
         padding: 4%;
@@ -67,10 +135,39 @@ nav {
         margin: 10%;
     }
 
+    /* navbar-end */
+
+    /* header-start */
+
+    header {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .header-text {
+        width: 100%;
+    }
+
+    .benefits {
+        text-align: justify;
+    }
+
+    .header-banner {
+        display: none;
+    }
 }
+
+
+/* header-end */
+
+
 
 /* tablet-screen */
 @media screen and (min-width:427px) and (max-width:768px) {
+
+    /* navbar-start */
     nav {
         display: block;
         text-align: center;
@@ -95,7 +192,18 @@ nav {
         margin-left: 5%;
     }
 
+    /* navbar-end */
 
+    /* header-start */
+    header {
+        background-image: url("images/Group 14.png");
+    }
+
+    .header-banner {
+        display: none;
+    }
+
+    /* header-end */
 
 
 }
