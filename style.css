@@ -2,5 +2,34 @@
 * {
 
     font-family: 'Work Sans';
+    margin: 0%;
 
+}
+
+.title {
+    color: #FF42A5;
+}
+
+/* nav bar style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.menu-item {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.navbar-follow {
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 0.5rem;
 }
