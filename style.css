@@ -54,7 +54,6 @@ nav {
     }
 
     .navbar-title {
-        display: block;
         text-align: center;
     }
 
@@ -67,5 +66,36 @@ nav {
         display: block;
         margin: 10%;
     }
+
+}
+
+/* tablet-screen */
+@media screen and (min-width:427px) and (max-width:768px) {
+    nav {
+        display: block;
+        text-align: center;
+        padding: 3%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+    }
+
+    .navbar-title {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .menu-item {
+        display: inline;
+        text-align: center;
+
+    }
+
+    .navbar-follow {
+        padding: 5px;
+        margin-left: 5%;
+    }
+
+
+
 
 }
