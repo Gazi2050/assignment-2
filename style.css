@@ -20,6 +20,15 @@ nav {
 
 }
 
+.navbar-menu {
+    list-style: none;
+
+}
+
+.navbar-menu li {
+    display: inline;
+}
+
 .menu-item {
     margin-left: 2rem;
     text-decoration: none;
@@ -31,5 +40,32 @@ nav {
 .navbar-follow {
     background-color: rgb(227, 227, 227);
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 2vh;
+    text-align: center;
+}
+
+
+/* mobile-screen */
+@media screen and (max-width:426px) {
+    nav {
+        display: block;
+        padding: 4%;
+        box-shadow: none;
+    }
+
+    .navbar-title {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-menu {
+        text-align: center;
+    }
+
+    .menu-item,
+    .navbar-follow {
+        display: block;
+        margin: 10%;
+    }
+
 }
