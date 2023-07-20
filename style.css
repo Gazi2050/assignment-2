@@ -146,6 +146,48 @@ header {
 
 /* online-games-end */
 
+/* Play-Instantly-start */
+.Play-Instantly {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10%;
+}
+
+.Play-Instantly-text {
+    padding: 10px;
+
+}
+
+.Play-Instantly-text h1 {
+    text-shadow: -1px 0px 3px rgb(122, 55, 169);
+}
+
+.Play-Instantly-banner {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.Play-Instantly-img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70%;
+}
+
+.Play-Instantly-img2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 30%;
+
+}
+
+/* Play-Instantly-end */
+
+
 /* top-games start */
 .top-games {
     background-color: antiquewhite;
