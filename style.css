@@ -136,6 +136,7 @@ header {
 .online-game-img:hover {
     border: rgb(203, 60, 108) solid 4px;
     border-radius: 15px;
+
 }
 
 
@@ -329,6 +330,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .online-game-img {
@@ -336,10 +338,6 @@ footer {
 
     }
 
-    .online-game-img:hover {
-        border: rgb(203, 60, 108) solid 4px;
-        border-radius: 15px;
-    }
 
 
     /* online-games-end */
