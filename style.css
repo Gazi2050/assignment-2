@@ -24,6 +24,7 @@ nav {
 .navbar-menu {
     list-style: none;
 
+
 }
 
 .navbar-menu li {
@@ -277,7 +278,9 @@ footer {
     /* navbar-start  */
     nav {
         display: block;
-        padding: 4%;
+        padding: 10px;
+        width: 900px;
+        font-size: 50px;
         box-shadow: none;
     }
 
@@ -287,6 +290,7 @@ footer {
 
     .navbar-menu {
         text-align: center;
+
     }
 
     .menu-item,
@@ -302,9 +306,9 @@ footer {
     header {
         display: block;
         text-align: center;
-        /* width: 100%; */
+        width: 700px;
         background-color: white;
-        padding: 0;
+        padding: 100px;
     }
 
 
@@ -333,9 +337,28 @@ footer {
 
     /* online-games-end */
 
+    /* Play-Instantly-start */
+    .Play-Instantly {
+        flex-direction: column-reverse;
+        font-size: medium;
+        width: 100%;
+        padding: 100px;
+    }
+
+    .Play-Instantly-img1 {
+        width: 80%;
+    }
+
+    .Play-Instantly-img2 {
+        width: 35%;
+        left: 60%;
+    }
+
+    /* Play-Instantly-end */
+
     /* top-games-start */
     .top-games {
-        width: 697px;
+        width: 927px;
         padding: 40px 10px;
     }
 
@@ -348,7 +371,7 @@ footer {
     /* top-games-end */
     /* footer-start */
     footer {
-        width: 720px;
+        width: 950px;
         padding-bottom: 10%;
     }
 
