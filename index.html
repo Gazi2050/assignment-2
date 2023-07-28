@@ -17,6 +17,52 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cabin&family=Sono:wght@500&family=Titillium+Web:wght@600;700;900&family=Work+Sans:wght@400;500;600;800&display=swap"
         rel="stylesheet">
+
+    <style>
+        /* online-games-start  */
+        .game-cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .cards {
+            position: relative;
+            width: 20vw;
+            text-align: center;
+        }
+
+        .image {
+            width: 100%;
+            transition: .5s;
+
+        }
+
+        .middle {
+            transition: 1s ease;
+            opacity: 0;
+            position: absolute;
+            top: 32%;
+            left: 35%;
+            width: 30%;
+        }
+
+        .cards:hover .image {
+            opacity: 0.3;
+        }
+
+        .cards:hover .middle {
+            opacity: 1;
+        }
+
+        .g-pic:hover {
+            border: red solid 5px;
+            border-radius: 15px;
+        }
+
+        /* online-games-end */
+    </style>
 </head>
 
 <body>
@@ -68,30 +114,38 @@
     <!-- header-end -->
 
     <!-- online-games-start -->
-    <section class="online-game">
-        <h1>
-            Online Games<span class="title">Funny Videos</span>
-        </h1>
-        <p>
-            A Collection of Hilarious Videos to Brighten Your Day
-        </p>
-        <div class="game-pic">
-            <div><img class="online-game-img" src="images/Rectangle 4.png">
-                <p>No Download. No Installs.<br> Play games Instantly on Gamer.</p>
+    <section class="game-cards">
+        <div class="cards">
+            <div class="g-pic"><img src="images/Rectangle 4.png" alt="Avatar" class="image">
+
+                <img src="https://cdn-icons-png.flaticon.com/128/4208/4208490.png" class="middle">
             </div>
-            <div><img class="online-game-img" src="images/Rectangle 5.png">
-                <p>No Download. No Installs.<br> Play games Instantly on Gamer.</p>
+            <p>Hover over the image to see the effect.</p>
+        </div>
+        <div class="cards">
+            <div class="g-pic"><img src="images/Rectangle 5.png" alt="Avatar" class="image">
+
+                <img src="https://cdn-icons-png.flaticon.com/128/4208/4208490.png" class="middle">
             </div>
-            <div><img class="online-game-img" src="images/Rectangle 6.png">
-                <p>No Download. No Installs.<br> Play games Instantly on Gamer.</p>
+            <p>Hover over the image to see the effect.</p>
+        </div>
+        <div class="cards">
+            <div class="g-pic"><img src="images/Rectangle 6.png" alt="Avatar" class="image">
+
+                <img src="https://cdn-icons-png.flaticon.com/128/4208/4208490.png" class="middle">
             </div>
-            <div><img class="online-game-img" src="images/Rectangle 7.png">
-                <p>No Download. No Installs.<br> Play games Instantly on Gamer.</p>
+            <p>Hover over the image to see the effect.</p>
+        </div>
+        <div class="cards">
+            <div class="g-pic"><img src="images/Rectangle 7.png" alt="Avatar" class="image">
+
+                <img src="https://cdn-icons-png.flaticon.com/128/4208/4208490.png" class="middle">
             </div>
+            <p>Hover over the image to see the effect.</p>
         </div>
     </section>
-
     <!-- online-games-end -->
+
     <!-- play-instantly-start -->
     <section class="Play-Instantly">
         <div class="Play-Instantly-banner">

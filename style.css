@@ -315,32 +315,8 @@ footer {
         text-align: justify;
     }
 
-
-
-
-
     /* header-end */
-    /* online-games-start */
-    .online-game {
-        font-size: large;
-    }
 
-    .game-pic {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .online-game-img {
-        width: 150vw;
-
-    }
-
-
-
-    /* online-games-end */
 
     /* Play-Instantly-start */
     .Play-Instantly {
